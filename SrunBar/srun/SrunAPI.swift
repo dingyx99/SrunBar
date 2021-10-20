@@ -14,7 +14,7 @@ enum SrunError : Error {
 
 class SrunAPI {
 
-    let BaseAddr = "http://10.0.0.55"
+    let BaseAddr = "https://portal.nwafu.edu.cn"
     let ChallengeUrl = "/cgi-bin/get_challenge"
     let PortalUrl    = "/cgi-bin/srun_portal"
     let InfoUrl = "/cgi-bin/rad_user_info"
